@@ -1,0 +1,6 @@
+plan.md
+.venv
+.env
+__pycache__
+feedback.md
+execution_report.md

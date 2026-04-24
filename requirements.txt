@@ -1,0 +1,17 @@
+# Core LLM & Agent Framework
+langchain>=0.2.0
+langgraph>=0.1.0
+langchain-google-genai>=1.0.0
+
+# Memory Backends
+chromadb>=0.4.0
+redis>=5.0.0
+
+# Token Counting
+tiktoken>=0.7.0
+
+# Embeddings
+sentence-transformers>=2.2.0
+
+# Utilities
+python-dotenv>=1.0.0

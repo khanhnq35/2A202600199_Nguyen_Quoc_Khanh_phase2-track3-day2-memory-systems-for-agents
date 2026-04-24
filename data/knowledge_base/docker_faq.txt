@@ -1,0 +1,10 @@
+# Docker Troubleshooting FAQ
+
+Q: Làm thế nào để xóa toàn bộ containers đang dừng?
+A: Bạn có thể sử dụng lệnh `docker container prune`.
+
+Q: Lệnh nào để xem log của một container cụ thể?
+A: Sử dụng `docker logs -f <container_id>`.
+
+Q: Làm sao để build image mà không dùng cache?
+A: Thêm flag `--no-cache` vào lệnh build: `docker build --no-cache -t my-app .`.
